@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải phương trình</title>
+    <link rel="stylesheet" href="Bai1.css">
+</head>
+<body>
+    <div class="test"></div>
+    <div class="form">
+        <div class="form-header">
+            <h1>Giải phương trình</h1>
+            <h3 id="De">ax<sup>2</sup> + bx + c = 0</h3>
+            <p>Số lần giải: <span id="solangiai">0</span></p>
+        </div>
+        <div class="form-content">
+            <div class="row">
+                <span>Nhập số a: </span>
+                <input onclick="nhapso()" type="text" id="a">
+            </div>
+            <div class="row">
+                <span>Nhập số b: </span>
+                <input onclick="nhapso()" type="text" id="b">
+            </div>
+            <div class="row">
+                <span>Nhập số c: </span>
+                <input onclick="nhapso()" type="text" id="c">
+            </div>
+            <div class="row">
+                <button type="button" class="button_lock" id="btngiai" disabled  onclick="pt.giai(); dem()";>Giải PT</button>
+
+                <button type="button" class="button_open" id="btnchoso" onclick="choso()">Cho số</button>
+            </div>
+            <div id="kq"></div>
+            <div id="dongho"></div>
+        </d>
+    </div>
+    <script src="Bai1.js"></script>
+</body>
+</html>

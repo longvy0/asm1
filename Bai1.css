@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* :root {
+    /* xanh_nhat: #0f5d82;
+    xanh_dam: #0d445f; */
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 5000px;
+    background-color: #1E4D23;
+    /* overflow: hidden; */
+  }
+  
+  .form {
+    margin: 120px auto;
+    width: 450px;
+    /* height: 400px; */
+    /* background-color: #b6babf; */
+    border-radius: 15px;
+    padding: 40px 15px 5px 15px;
+    color: #BECC5E;
+    border: 2px solid #000; 
+  }
+  
+  .form-header {
+    border-bottom: 2px solid #dadada;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .form-header h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    /* color: #0f5d82; */
+  }
+  
+  #De {
+    margin-bottom: 10px;
+    /* color: #0d445f; */
+    line-height: 35px;
+    padding: 0;
+  }
+  
+  .form-header p {
+    /* color: #0d445f; */
+    font-weight: bold;
+  }
+  
+  .form-header p span {
+    background-color: #0d445f;
+    color: #b6babf;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+  
+  .form-content {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .form-content .row {
+    margin-bottom: 20px;
+  }
+  
+  .form-content span {
+    font-size: 18px;
+    margin-right: 10px;
+    /* color: #0d445f; */
+    font-weight: bold;
+  }
+  
+  .form-content input {
+    border: 1px solid #dadada;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #203239;
+    color: #dadada;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .form-content input:focus {
+    border: 2px solid #dadada;
+  }
+  
+  .form-content button {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #dadada;
+    background-color: #203239;
+  }
+  
+  .button_open {
+    color: #dadada;
+  }
+  
+  .button_lock {
+    color: #756565;
+  }
+  
+  #btngiai {
+    margin-right: 50px;
+  }
+  
+  #btngiai:hover,
+  #btnchoso:hover {
+    background-color: #0d445f;
+    color: #b6babf;
+  }
+  
+  .form-content #kq {
+    border: 2px solid #dadada;
+    border-radius: 10px;
+    /* min-height: 80px; */
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  #dongho {
+    /* color: #0d445f; */
+    font-weight: bold;
+  }
